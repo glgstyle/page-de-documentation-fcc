@@ -37,7 +37,7 @@ nav a{
 }
 main{
     display:row;
-    margin-left: 40px;
+    margin-left: 330px;
 }
 p{
     padding-left: 20px;
@@ -62,5 +62,10 @@ code{
     margin: 30px;
     border-radius: 5px;
 }
+@media only screen and (max-width: 600px) {
+    body {
+      background-color: lightblue;
+    }
+  }
 
 
